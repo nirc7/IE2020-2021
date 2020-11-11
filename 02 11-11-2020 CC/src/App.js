@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import CCCar from './ClassComponents/CCCar';
 import Header from './Elements/EHeader';
 import FCStudent from './FunctionalComponents/FCStudent';
 
@@ -14,8 +14,10 @@ const App =
       color: 'red'
     }}>hello world!</h1>
 
-    <FCStudent id={7} name="avi" inRup={true}/>
-    <FCStudent id={8} name="ben" inRup={false}/>
+    <CCCar model="bmw"  />
+
+    <FCStudent id={7} name="avi" inRup={true} />
+    <FCStudent id={8} name="ben" inRup={false} />
 
     <h2>Ruppin</h2>
 
