@@ -24,6 +24,8 @@ namespace WebApplication1.Controllers
             }
         }
 
+        public IHttpActionResult get() { }
+
         public IHttpActionResult Get(int id)
         {
             try
